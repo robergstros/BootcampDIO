@@ -11,7 +11,7 @@
 /*elemento base */
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -80,6 +80,12 @@ header nav a:hover{
     background-color: white;
     color: black;
 }
+
+.botao:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+  }
 .botao i{
     margin-right: 8px;
 }
@@ -95,4 +101,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
